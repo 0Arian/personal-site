@@ -9,7 +9,7 @@ import '../pages/textLink.css'
 const Header = () => (
   <div
     style={{
-      background: '#1E90FF',
+      background: '#52B3D9',
     }}
   >
     <div

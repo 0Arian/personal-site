@@ -3,7 +3,11 @@ import Link from 'gatsby-link'
 import './textLink.css'
 
 const IndexPage = () => (
-  <div>
+  <div
+    style={{
+      color: 'white',
+    }}
+  >
     <div
       style={{
         marginBottom: '1.45rem',
