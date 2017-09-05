@@ -4,12 +4,12 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import './index.css'
+import '../pages/textLink.css'
 
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
+      background: '#1E90FF',
     }}
   >
     <div
@@ -19,7 +19,7 @@ const Header = () => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0 }} className="header-title">
         <Link
           to="/"
           style={{
@@ -27,17 +27,44 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Arian Moslem
         </Link>
       </h1>
     </div>
+      <Link 
+        className="textLink"
+        to="/projects"
+        style={{
+          textDecoration: 'none',
+        }}
+      >
+        Projects
+      </Link>
+      <Link 
+        className="textLink"
+        to="/projects"
+        style={{
+          textDecoration: 'none',
+        }}
+      >
+        Projects
+      </Link>
+      <a 
+        href="http://github.com/airrbear" 
+        className="textLink"
+        style={{
+          textDecoration: 'none'
+        }}
+      >
+        Test
+      </a>
   </div>
 )
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Arian Moslem"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
