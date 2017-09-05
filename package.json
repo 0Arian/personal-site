@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "Arian Moslem",
+  "description": "Personal Website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Arian Moslem <amoslem678@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.17",
+    "gatsby": "^1.9.24",
     "gatsby-link": "^1.6.15",
-    "gatsby-plugin-react-helmet": "^1.0.5"
+    "gatsby-plugin-react-helmet": "^1.0.6"
   },
   "keywords": [
     "gatsby"

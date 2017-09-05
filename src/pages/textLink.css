@@ -18,3 +18,11 @@
 .textLink:hover{
     color: black;
 }
+
+.bodyLink{
+    color: #1E90FF;
+    text-decoration: none;
+}
+.bodyLink:hover{
+    color: black;
+}

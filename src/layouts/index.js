@@ -33,7 +33,7 @@ const Header = () => (
     </div>
       <Link 
         className="textLink"
-        to="/projects"
+        to="/page-2"
         style={{
           textDecoration: 'none',
         }}
@@ -56,7 +56,7 @@ const Header = () => (
           textDecoration: 'none'
         }}
       >
-        Test
+        Github
       </a>
   </div>
 )
