@@ -21,8 +21,9 @@ const IndexPage = () => (
       className="bodyLink"
     >
       here
-    </a></p>
+    </a>, if you're interested in what books I'm currently reading</p>
     <p>I'm interested in Education Technology, Water Conservation, Improving the World's average Living Conditions, and Entrepreneurship</p>
+    <p>This website is built with ReactJS(Using Gatsby)</p>
   </div>
 )
 
