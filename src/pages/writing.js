@@ -13,7 +13,7 @@ const Writing = () => (
       }}
     >
     </div>
-    <p>Hello World!</p>
+    <p>Blog is currently under construction. First post will be up soon</p>
   </div>
 )
 
