@@ -33,12 +33,21 @@ const Header = () => (
     </div>
       <Link 
         className="textLink"
-        to="/page-2"
+        to="/"
         style={{
           textDecoration: 'none',
         }}
       >
-        Projects
+        About
+      </Link>
+      <Link 
+        className="textLink"
+        to="/writing"
+        style={{
+          textDecoration: 'none',
+        }}
+      >
+        Writing
       </Link>
       <Link 
         className="textLink"
@@ -49,6 +58,15 @@ const Header = () => (
       >
         Projects
       </Link>
+      <Link 
+        className="textLink"
+        to="/links"
+        style={{
+          textDecoration: 'none',
+        }}
+      >
+        Links
+      </Link>
       <a 
         href="http://github.com/airrbear" 
         className="textLink"
@@ -57,6 +75,15 @@ const Header = () => (
         }}
       >
         Github
+      </a>
+      <a 
+        href="mailto:amoslem678@gmail.com" 
+        className="textLink"
+        style={{
+          textDecoration: 'none'
+        }}
+      >
+        Email
       </a>
   </div>
 )

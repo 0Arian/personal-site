@@ -14,15 +14,15 @@ const IndexPage = () => (
       }}
     >
     </div>
-    <h2>Hi I'm Arian</h2>
     <p>I'm a student at Rutgers University studying Computer Science and minoring in Philosophy & Mathematics</p>
-    <p>My favorite hobbies include raquetball, running, reading, and attending hackathons!</p>
+    <p>My favorite hobbies include raquetball, attending hackathons, running, and reading!</p>
     <p>You can find my goodreads account <a 
       href="https://www.goodreads.com/user/show/69086140-arian-moslem"
       className="bodyLink"
-    >here
+    >
+      here
     </a></p>
-    <p>I'm interested in Education Technology, Improving the World's average Living Conditions, Venture Capital, and Entrepreneurship</p>
+    <p>I'm interested in Education Technology, Water Conservation, Improving the World's average Living Conditions, and Entrepreneurship</p>
   </div>
 )
 
